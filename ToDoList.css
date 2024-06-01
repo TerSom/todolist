@@ -1,0 +1,161 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.aside {
+    background-color: blue;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 16.4px;
+}
+
+.profile img {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.profile span {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.dasboard {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.dasboard a {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.article {
+    width: 100%;
+    height: 80px;
+}
+
+.nav {
+    position: fixed;
+    width: calc(100% - 240px);
+    top: 0;
+    left: 199.9px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.img1 {
+    width: 30px;
+    height: 30px;
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.addTask input {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.addTask button {
+    width: 90px;
+    height: 43px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.main h1 {
+    padding: 20px;
+}
+
+.main h2 {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.th1 {
+    background-color: gray;
+}
+
+.th2 {
+    background-color: green;
+}
+
+.th3 {
+    background-color: #f44336;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-buttons button {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: blue;
+}
+
+.complete {
+    background-color: green;
+}
+
+.delete {
+    background-color: #f44336;
+}

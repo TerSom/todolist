@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="ToDoList.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="aside">
+      <div class="profile">
+        <img src="download__4_-removebg-preview.png" alt="Profile Image" />
+        <span>Rizky</span>
+      </div>
+      <hr color="black" />
+      <div class="dasboard">
+        <img src="icons8-to-do-list-100.png" alt="To Do List" class="img" />
+        <a href="#">To Do List</a>
+      </div>
+    </div>
+    <div class="article">
+      <div class="nav">
+        <span>To Do List</span>
+        <span>Point: 0</span>
+        <span>Level: 0</span>
+        <img src="download__4_-removebg-preview.png" alt="Profile Image" class="img1" />
+      </div>
+      <div class="main">
+        <h1>My Todos</h1>
+        <div class="addTask">
+          <input type="text" id="taskInput" placeholder="Add Task" />
+          <input type="date" id="taskDeadline" />
+          <button id="addTask">Add</button>
+        </div>
+        <h2>Ongoing Tasks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="th1">Task</th>
+              <th class="th1">Deadline</th>
+              <th class="th1">Action</th>
+            </tr>
+          </thead>
+          <tbody id="taskList"></tbody>
+        </table>
+        <h2>Completed Tasks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="th2">Task</th>
+              <th class="th2">Deadline</th>
+              <th class="th2">Task Completion Date</th>
+            </tr>
+          </thead>
+          <tbody id="completeTaskList"></tbody>
+        </table>
+        <h2>Deleted Tasks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="th3">Task</th>
+              <th class="th3">Deadline</th>
+              <th class="th3">Task Delete Date</th>
+            </tr>
+          </thead>
+          <tbody id="deleteTaskList"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="ToDoLis.js"></script>
+</body>
+</html>
